@@ -1,0 +1,10 @@
+<h1><%= @task["title"] %></h1>
+
+
+<%= link_to "See all task", tasks_path, class: "btn" %>
+
+<%= link_to 'Edit Task', edit_path , class: "link-title" %>
+
+<div class="box">
+<p> <%= @task["details"] %> </p>
+</div>
