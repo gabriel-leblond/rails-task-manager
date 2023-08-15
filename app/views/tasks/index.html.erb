@@ -7,7 +7,7 @@
 
     <div class="task-box box">
     <input type="checkbox"/>
-    <h3><%= link_to task.title, task_path(task["id"]), class: "link-title" %></h3>
+    <h3 class="title"><%= link_to task.title, task_path(task["id"]), class: "link-title" %></h3>
 
 
     <%= link_to 'delete', delete_path(task["id"]) , class: "link-title" %>
